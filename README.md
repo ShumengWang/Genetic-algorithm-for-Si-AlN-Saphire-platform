@@ -5,6 +5,10 @@ This code runs automation process for the optimization of a Si-AlN-Saphire platf
 
 ga.m is the main function, which run the GA process
 
+crossover.m runs the crossover of parents
+
+mutation.m runs the mutation of childen 
+
 pattern_generate.m generates patterns according to the input parameters, the patterns are used for calculating FOM.
 
 preset.m runs the pre-conditioning process, includes updating the Boundaries and domains when new patterns are generated.
